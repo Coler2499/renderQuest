@@ -27,7 +27,6 @@
             <div class="col">
                 <h1>Welcome Ethan heres some values!</h1>
                 <h3>Client ip =  {{.ClientIP}}</h3>
-                <hr>
                 <p>Express yourself through words and creativity</p>
                 <p>You provide the templates, we provide the data!</p>
             
