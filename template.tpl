@@ -26,7 +26,7 @@
         <div class="row mt-5">
             <div class="col">
                 <h1>Welcome Ethan heres some values!</h1>
-                <p>Variable Value: <?php echo $RequestData.ClientIP; ?></p>
+                <h2>Client ip =  {{.ClientIP}}</h2>
                 <hr>
                 <p>Express yourself through words and creativity</p>
                 <p>You provide the templates, we provide the data!</p>
