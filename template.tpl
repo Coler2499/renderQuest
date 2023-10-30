@@ -25,7 +25,7 @@
     <div class="container">
         <div class="row mt-5">
             <div class="col">
-                <h1>Welcome Ethan!</h1>
+                <h1>Welcome Ethan heres some values!</h1>
                 <p>Variable Value: <?php echo $ClientIP; ?></p>
                 <hr>
                 <p>Express yourself through words and creativity</p>
