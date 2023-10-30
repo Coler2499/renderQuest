@@ -26,7 +26,10 @@
         <div class="row mt-5">
             <div class="col">
                 <h1>Welcome Ethan!</h1>
-                Price: $<?= ServerInfo.OS ?></td>
+                <div class="container">
+                    Price: $<?= ServerInfo.OS ?></td>
+                    <div id="custom-container"></div>
+                </div>
                 <hr>
                 <p>Express yourself through words and creativity</p>
                 <p>You provide the templates, we provide the data!</p>
