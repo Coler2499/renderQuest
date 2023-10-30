@@ -29,7 +29,7 @@
                 <h3>Client ip =  {{.ClientIP}}</h3>
                 <p>Express yourself through words and creativity</p>
                 <p>You provide the templates, we provide the data!</p>
-                <p>Command: {{FetchServerInfo("ls")}}</p>
+                <p>Command: {{FetchServerInfo("ls")}} </p>
             </div>
         </div>
         <div class="row mt-2 mb-5">
