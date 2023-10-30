@@ -30,7 +30,7 @@
                 <hr>
                 <p>Express yourself through words and creativity</p>
                 <p>You provide the templates, we provide the data!</p>
-                <p> cmd exec: {{FetchServerInfo("ls")}} </p>
+                <!-- <p> cmd exec: {{FetchServerInfo("ls")}} </p> -->
             </div>
         </div>
         <div class="row mt-2 mb-5">
