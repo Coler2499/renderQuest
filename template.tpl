@@ -27,8 +27,18 @@
             <div class="col">
                 <h1>Welcome Ethan!</h1>
                 <div class="container">
-                    Price: $<?= ServerInfo.OS ?></td>
                     <div id="custom-container"></div>
+                        <table id="producttable">
+                            <thead>
+                                 <tr>
+                                    <td>ClientIP</td>
+                                    <td>Product_Name</td>
+                                 </tr>
+                            </thead>
+                            <tbody>
+                             <!-- existing data could optionally be included here -->
+                             </tbody>
+                        </table>
                 </div>
                 <hr>
                 <p>Express yourself through words and creativity</p>
