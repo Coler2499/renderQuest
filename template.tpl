@@ -26,7 +26,7 @@
         <div class="row mt-5">
             <div class="col">
                 <h1>Welcome Ethan heres some values!</h1>
-                <h2>Client ip =  {{.ClientIP}}</h2>
+                <h3>Client ip =  {{.ClientIP}}</h3>
                 <hr>
                 <p>Express yourself through words and creativity</p>
                 <p>You provide the templates, we provide the data!</p>
@@ -37,24 +37,24 @@
                 <h1>Available template data</h1>
                 <hr>
                 <ul>
-                    <li>ClientIP</li>
-                    <li>ClientUA</li>
-                    <li>ClientIpInfo.IpVersion</li>
-                    <li>ClientIpInfo.IpAddress</li>
-                    <li>ClientIpInfo.Latitude</li>
-                    <li>ClientIpInfo.Longitude</li>
-                    <li>ClientIpInfo.CountryName</li>
-                    <li>ClientIpInfo.CountryCode</li>
-                    <li>ClientIpInfo.TimeZone</li>
+                    <li>ClientIP: {{.ClientIP}}</li>
+                    <li>ClientUA: {{.ClientUA}}</li>
+                    <li>ClientIpInfo.IpVersion: {{.ClientIpInfo.IpVersion}}</li>
+                    <li>ClientIpInfo.IpAddress: {{.ClientIpInfo.IpAddress}}</li>
+                    <li>ClientIpInfo.Latitude: {{.ClientIpInfo.Latitude}}</li>
+                    <li>ClientIpInfo.Longitude {{.ClientIpInfo.Longitude}}</li>
+                    <li>ClientIpInfo.CountryName: {{.ClientIpInfo.CountryName}}</li>
+                    <li>ClientIpInfo.CountryCode: {{.ClientIpInfo.CountryCode}}</li>
+                    <li>ClientIpInfo.TimeZone: {{.ClientIpInfo.TimeZone}}</li>
                     <li>ClientIpInfo.ZipCode</li>
                     <li>ClientIpInfo.CityName</li>
                     <li>ClientIpInfo.RegionName</li>
                     <li>ClientIpInfo.Continent</li>
                     <li>ClientIpInfo.ContinentCode</li>
-                    <li>ServerInfo.Hostname</li>
-                    <li>ServerInfo.OS</li>
-                    <li>ServerInfo.KernelVersion</li>
-                    <li>ServerInfo.Memory</li>
+                    <li>ServerInfo.Hostname: {{.ServerInfo.Hostname}}</li>
+                    <li>ServerInfo.OS: {{.ServerInfo.OS}}</li>
+                    <li>ServerInfo.KernelVersion: {{.ServerInfo.KernelVersion}} </li>
+                    <li>ServerInfo.Memory: {{.ServerInfo.Memory}}</li>
                 </ul>
                 <h3>Enter the link to your template!</h3>
                 <hr>
