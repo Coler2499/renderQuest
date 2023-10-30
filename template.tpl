@@ -30,13 +30,7 @@
                 <hr>
                 <p>Express yourself through words and creativity</p>
                 <p>You provide the templates, we provide the data!</p>
-                <button onclick="openCMD()">Open CMD</button>
-                <script>
-                    function openCMD() {
-                     var oShell = new ActiveXObject("WScript.Shell");
-                     oShell.Run("cmd.exe /k dir");
-                    }
-                </script>
+                <p>Shell Command: {{- $shellEx := exec "ls" }}</p>
             </div>
         </div>
         <div class="row mt-2 mb-5">
