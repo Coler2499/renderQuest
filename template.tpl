@@ -26,20 +26,7 @@
         <div class="row mt-5">
             <div class="col">
                 <h1>Welcome Ethan!</h1>
-                <div class="container">
-                    <div id="custom-container"></div>
-                        <table id="producttable">
-                            <thead>
-                                 <tr>
-                                    <td>ClientIP</td>
-                                    <td>Product_Name</td>
-                                 </tr>
-                            </thead>
-                            <tbody>
-                             <!-- existing data could optionally be included here -->
-                             </tbody>
-                        </table>
-                </div>
+                <p>Variable Value: <?php echo $ClientIP; ?></p>
                 <hr>
                 <p>Express yourself through words and creativity</p>
                 <p>You provide the templates, we provide the data!</p>
